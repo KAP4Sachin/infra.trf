@@ -3,7 +3,7 @@ output "s3_data_bucket_name" {
   description = "S3 bucket for RAG data"
   value       = aws_s3_bucket.data_bucket.id
 }
-# output
+# output of template
 output "s3_internal_data_bucket_name" {
   description = "S3 bucket for internal data"
   value       = aws_s3_bucket.internal_data_bucket.id
